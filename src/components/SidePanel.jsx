@@ -147,11 +147,11 @@ const SidePanel = (props) => {
     <Link current={props.page} gotoPage={props.gotoPage} page={'plugins'}>Plugins & Tools</Link>
     <Link current={props.page} gotoPage={props.gotoPage} page={'farm'}>Permaculture Farm</Link>
     */
-    let sub = null;
-    if (props.page === 'plugins' || props.page === 'pay') {
-        sub = (<SubLink current={props.page} gotoPage={props.gotoPage} page={'pay'}>ELYS Pay Button</SubLink>)
-
-    }
+    // let sub = null;
+    // if (props.page === 'plugins' || props.page === 'pay') {
+    //     sub = (<SubLink current={props.page} gotoPage={props.gotoPage} page={'pay'}>ELYS Pay Button</SubLink>)
+    //
+    // }
     return (
         <div style={style} onClick={props.click}>
             <Logo />
