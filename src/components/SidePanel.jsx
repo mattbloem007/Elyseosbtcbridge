@@ -55,23 +55,23 @@ const Link = (props) => {
     )
 }
 
-const SubLink = (props) => {
-    let style = {
-        border: 'none',
-        color: 'white',
-        fontSize: 14,
-        marginLeft: 10,
-        backgroundColor: 'transparent',
-        display: 'block',
-        marginTop: 10
-    }
-    if (props.page === props.current) {
-        style.fontWeight = 'bold'
-    }
-    return (
-        <button style={style} onClick={() => props.gotoPage(props.page)}>{props.children}</button>
-    )
-}
+// const SubLink = (props) => {
+//     let style = {
+//         border: 'none',
+//         color: 'white',
+//         fontSize: 14,
+//         marginLeft: 10,
+//         backgroundColor: 'transparent',
+//         display: 'block',
+//         marginTop: 10
+//     }
+//     if (props.page === props.current) {
+//         style.fontWeight = 'bold'
+//     }
+//     return (
+//         <button style={style} onClick={() => props.gotoPage(props.page)}>{props.children}</button>
+//     )
+// }
 
 const Logo = (props) => {
     return (
