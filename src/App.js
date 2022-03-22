@@ -1,6 +1,5 @@
 import ElysToBtcBridge from "./components/ElysToBtcBridge"
 import BtcToElysBridge from "./components/BtcToElysBridge"
-import Navbar from "./components/Navbar"
 import SidePanel from "./components/SidePanel"
 import Footer from "./components/Footer"
 import { Box, Stack, Text, Image, useColorMode } from '@chakra-ui/react'
