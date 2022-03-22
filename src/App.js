@@ -40,7 +40,7 @@ function App() {
     setSideMenuHidden(isMobile ? true : false)
 
     console.log("color", colorMode)
-    if (colorMode == "light")
+    if (colorMode === "light")
       toggleColorMode()
   }, [])
 

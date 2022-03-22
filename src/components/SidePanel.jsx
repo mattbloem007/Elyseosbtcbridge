@@ -30,9 +30,11 @@ const Icon = (props) => {
             display: 'inline-block'
         }} target="_blank" rel="noreferrer"><img style={{
             verticalAlign: 'top',
-            margin: 13
+            margin: 13,
+            width: "28px"
+
         }}
-            src={props.src} alt={props.alt} href={props.href} style={{ width: "28px" }} /></a>
+            src={props.src} alt={props.alt} href={props.href}/></a>
     )
 }
 
@@ -146,7 +148,7 @@ const SidePanel = (props) => {
     <Link current={props.page} gotoPage={props.gotoPage} page={'farm'}>Permaculture Farm</Link>
     */
     let sub = null;
-    if (props.page == 'plugins' || props.page == 'pay') {
+    if (props.page === 'plugins' || props.page === 'pay') {
         sub = (<SubLink current={props.page} gotoPage={props.gotoPage} page={'pay'}>ELYS Pay Button</SubLink>)
 
     }
