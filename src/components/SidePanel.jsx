@@ -25,7 +25,7 @@ const Icon = (props) => {
         <a href={props.href} style={{
             textDecoration: 'none',
             width: "22",
-            padding: 20,
+            padding: 10,
             textAlign: 'center',
             display: 'inline-block'
         }} target="_blank" rel="noreferrer"><img style={{
