@@ -56,8 +56,8 @@ function App() {
           {issue.status && <Text direction='row' alignItems="center" mx="auto" w="80%" mb="2" mt="20px" border={"2px"} rounded={"2xl"} borderColor={"#ed6f1b"} py="3" px="5" textAlign={"center"} backgroundColor={"#730a15"} >
             {issue.description}
           </Text>}
-          <ElysToBtcBridge issueState={[issue, setIssue]} />
           <BtcToElysBridge issueState={[issue, setIssue]} />
+          <ElysToBtcBridge issueState={[issue, setIssue]} />
           <Footer />
         </Box>
       </Stack>
